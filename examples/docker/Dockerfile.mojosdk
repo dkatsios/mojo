@@ -46,7 +46,7 @@ RUN pip install \
         ipywidgets
 
 # A random default token
-ARG AUTH_KEY=5ca1ab1e
+ARG AUTH_KEY=mut_75c33f97823141089fd4aa66bf427c51
 ENV AUTH_KEY=$AUTH_KEY
 
 RUN curl https://get.modular.com | MODULAR_AUTH=$AUTH_KEY sh - \
